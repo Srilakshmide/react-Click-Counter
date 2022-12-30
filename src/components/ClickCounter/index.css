@@ -1,0 +1,46 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.container {
+  background-color: #f1f5f8;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: bold;
+  color: #2d3a35;
+  text-align: center;
+}
+
+.count-color {
+  color: #c20a72;
+}
+
+.description {
+  font-family: 'Roboto';
+  color: #2d3a35;
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.button {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #007bff;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+  width: 100px;
+  cursor: pointer;
+}
